@@ -6,7 +6,7 @@ on_actions = {
                     limit = {
                         is_ai = no
                     }
-                    country_event = library.1
+                    country_event = Spring.1
                 }
             }
         }

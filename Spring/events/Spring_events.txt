@@ -1,0 +1,9 @@
+add_namespace = Spring
+country_event = {
+    id = Spring.1
+    title = Spring.1.t
+    desc = Spring.1.d
+    option = {
+        name = Spring.1.o1
+    }
+}

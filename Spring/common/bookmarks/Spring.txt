@@ -1,7 +1,7 @@
 bookmarks = {
 	bookmark = {
-		name = "Library_name"
-		desc = "Library_desc"
+		name = "Spring_name"
+		desc = "Spring_desc"
 		date = 1936.1.1.12
 		picture = "GFX_select_date_1936"
 		default_country = PRC
@@ -11,7 +11,7 @@ bookmarks = {
 			randomize_weather = 22345
 		}
 		PRC = {
-			history = "PRC_Library_desc"
+			history = "PRC_Spring_desc"
 			ideology = communism
 			ideas = {}
 			focuses = {}

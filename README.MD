@@ -7,8 +7,10 @@
 [![GitHub][badge:github]][url:github]
 [![Steam][badge:steam]][url:steam]
 
-## 概述
+> ***<font color=#ff3232>该项目仍处于早期开发阶段，在多数方面很不完善</font>***
 
+## 概述
+Spring是一个《Hearts of Iron IV》Mod制作模板，包含了Mod制作的基础结构以及说明文档，并且提供了Mod制作的教程。
 
 [badge:qq-group]: https://img.shields.io/badge/QQ-霜泽图书馆-blue.svg?logo=qq
 [badge:szgithub]: https://img.shields.io/badge/GitHub-霜泽图书馆-black.svg?logo=github

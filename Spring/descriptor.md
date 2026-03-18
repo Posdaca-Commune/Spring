@@ -1,7 +1,7 @@
 # descriptor.mod文件
 `descriptor.mod`文件中包含有Mod的各种信息，在创建Mod后自动创建，以下是一个示例：
 ```paradox_script
-version = "0.0.0"
+version = "0.0.1"
 tags = {
 	"Alternative History"
 }
@@ -9,6 +9,7 @@ name = "test"
 supported_version = "1.17.*"
 replace_path = common/bookmarks
 picture = thumbnail.png
+remote_file_id = *
 ```
 其中各部分内容如下：
 - `version = xxx` Mod版本。
