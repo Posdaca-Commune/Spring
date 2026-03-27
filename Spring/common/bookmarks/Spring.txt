@@ -1,20 +1,35 @@
 bookmarks = {
 	bookmark = {
-		name = "Spring_name"
-		desc = "Spring_desc"
+		name = "SPRING_NAME"
+		desc = "SPRING_DESC"
 		date = 1936.1.1.12
 		picture = "GFX_select_date_1936"
 		default_country = PRC
 		default = yes
-		effect = {
-			randomize_weather = 12345
-			randomize_weather = 22345
-		}
 		PRC = {
-			history = "PRC_Spring_desc"
+			history = "PRC_SPRING_DESC"
 			ideology = communism
 			ideas = {}
 			focuses = {}
+		}
+		"QIU"={
+			history = "QIU_SPRING_DESC"
+			ideology = communism
+			available = { has_dlc = "La Resistance" }
+			new_content = yes
+			minor = yes
+			override_leader_portrait = BTA_Qiuqi
+			focuses = {
+			    QIU_00_C1
+				QIU_00_C2
+			}
+		}
+		"---" = {
+            history = OTHER_SPRING_DESC
+        }
+		effect = {
+			randomize_weather = 12345
+			set_global_flag = Qiuqi_is_pig
 		}
 	}
 }
