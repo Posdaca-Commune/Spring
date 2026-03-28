@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>index</title>
+  <link rel="stylesheet" href="markdown-styles.css"  
+</head>
+<body>
+  <article class="markdown-body"><h1 class="atx" id="descriptormod文件">descriptor.mod文件</h1>
+<p><code>descriptor.mod</code>文件中包含有Mod的各种信息，在创建Mod后自动创建，以下是一个示例：</p>
+<pre><code class="fenced-code-block language-paradox_script">version = "0.0.1"
+tags = {
+    "Alternative History"
+}
+dependencies={
+    "Spring"
+}
+name = "test"
+supported_version = "1.17.*"
+replace_path = common/bookmarks
+picture = thumbnail.png
+remote_file_id = *</code></pre>
+<p>其中各部分内容如下：</p>
+<ul>
+<li><code>version = xxx</code> Mod版本。</li>
+<li><code>name = xxx</code> Mod名称。</li>
+<li><code>tags = { ... }</code> 包含创建Mod时勾选的标签。</li>
+<li><code>dependencies={ ... }</code>Mod的前置Mod。</li>
+<li><code>picture = "{file}"</code> Mod缩略图。</li>
+<li><code>replace_path = xxx</code> 包含Mod将要替换的文件夹。</li>
+<li><code>supported_version = *.*.*</code> Mod所支持的游戏版本</li>
+<li><code>remote_file_id = *</code> Mod在Steam创意工坊上的id，<strong>上传之后自动生成，无需手动添加分配</strong>。</li>
+</ul>
+</article>
+  
+</body>
+</html>
