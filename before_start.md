@@ -6,8 +6,8 @@
 | 软件 | [VS code](https://code.visualstudio.com "点击前往官网") | [Intellij IDEA](https://www.jetbrains.com/zh-cn/idea/ "点击前往官网") |
 |:--:|:-------------------------------------------------:|:---------------------------------------------------------------:|
 | 优点 |                    插件较多、用户数量多                     |                   可通过嵌入提示快速了解信息，支持添加多个Mod进索引                    |
-| 缺点 |                    插件配置及上手难度较大                    |                       插件较少，有时语言解析会出现不明问题                        |
-> *tips：使用本Mod的人员建议使用 **[Intellij IDEA](https://www.jetbrains.com/zh-cn/idea/ "点击前往官网")** 以获取最佳开发体验。*
+| 缺点 |                    插件配置及上手难度较大                    |                              插件较少                               |
+> *tips: 使用本Mod的人员建议使用 **[Intellij IDEA](https://www.jetbrains.com/zh-cn/idea/ "点击前往官网")** 以获取最佳开发体验。*
 ### 安装插件
 #### 对于使用VSC的人员，建议安装下列插件：
 - [Chinese (Simplified) (简体中文) Language Pack for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-zh-hans "点击前往插件页面")（VSC中文语言包）
