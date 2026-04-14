@@ -4,15 +4,13 @@
 [![szGitHub][badge:szgithub]][url:szgithub]
 [![GitHub][badge:github]][url:github]
 [![Steam][badge:steam]][url:steam]
-
 > ***<font color=#ff3232>该项目仍处于早期开发阶段，在多数方面很不完善</font>***
-
 ## 概述
 Spring是一个 *Hearts of Iron IV* Mod制作模板，包含了Mod制作的基础结构以及说明文档，并且提供了Mod制作的教程。<br>
 模板以及Markdown文档位于`Spring`文件夹内，以HOI4的Mod结构为基础。
-
-> Q: 我该怎么开始制作Mod？<br>
-> A: 请查看 `before_start.md` 文档。
+## 常见问题
+> Q: 我该怎么开始学习制作Mod？<br>
+> A: 请克隆仓库到本地，然后查看 `before_start.md` 文档。
 
 > Q: 我想了解的东西文档里没有怎么办？<br>
 > A: 我们现在还在早期开发阶段，可以同时查看P社的[Wiki](https://hoi4.paradoxwikis.com/Modding "点击前往Wiki")以更好学习（但是Wiki没有中文），或者与我们一起开发完善文档。
