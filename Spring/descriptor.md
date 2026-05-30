@@ -3,8 +3,9 @@
 `descriptor.mod`文件中包含有Mod的各种信息，在创建Mod后自动创建，以下是一个示例：
 
 ```paradox_script
-version = "0.0.1"
+version = "0.0.1" # Mod版本
 tags = {
+    # 选择的标签，Mod在Steam创意工坊上的标签
     "Alternative History"
 }
 dependencies={
