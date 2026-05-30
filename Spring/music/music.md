@@ -37,12 +37,12 @@ music = {
 ```paradox_script
 guiTypes = {
     containerWindowType = {
-        name = "xxx_faceplate"
+        name = "xxx_faceplate" # 你的电台名称加上"_faceplate"
         position = { x =0 y=0 }
         size = { width = 590 height = 46 }
 
         iconType ={
-            name ="musicplayer_header_bg"
+            name = "musicplayer_header_bg"
             spriteType = "GFX_musicplayer_header_bg"
             position = { x= 0 y = 0 }
             alwaystransparent = yes
