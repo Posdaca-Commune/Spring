@@ -3,14 +3,15 @@
 - 在开发Mod时建议对各部分进行有效的分类，游戏会尝试读取每一个文件夹中的文件，因此不必担心文件夹过多会导致游戏无法读取。
 - 对于原版的修改、替换和Mod新增的内容，建议分开存放在不同的文件夹中以便于管理，同时Mod新增的内容建议添加前缀以区分于原版内容（如`<MODID>_`）。
 - 制作Mod时建议使用版本控制工具（如Git）托管到代码托管平台（如GitHub）以便于管理和备份。
+- 编写代码时随手写注释有助于帮助自己后期看懂自己的屎山代码。
 ## 制作Mod前的准备工作
 ### 下载文本编辑器
 制作mod所常用的文本编辑器有[VS code](https://code.visualstudio.com "点击前往官网")（以下简称VSC）与[Intellij IDEA](https://www.jetbrains.com/zh-cn/idea "点击前往官网")（以下简称IDEA）。
 
-| 软件 | [VS code](https://code.visualstudio.com "点击前往官网") | [Intellij IDEA](https://www.jetbrains.com/zh-cn/idea/ "点击前往官网") |
-|:--:|:-------------------------------------------------:|:---------------------------------------------------------------:|
-| 优点 |                    插件较多、用户数量多                     |                   可通过嵌入提示快速了解信息，支持添加多个Mod进索引                    |
-| 缺点 |                    插件配置及上手难度较大                    |                             针对性插件较少                             |
+| 软件 | [VS code](https://code.visualstudio.com "点击前往官网") | [Intellij IDEA](https://www.jetbrains.com/zh-cn/idea "点击前往官网") |
+|:----:|:-------------------------------------------------------:|:--------------------------------------------------------------------:|
+| 优点 |                  插件较多、用户数量多                   |             可通过嵌入提示快速了解信息，支持添加Mod索引              |
+| 缺点 |                 插件配置及上手难度较大                  |                           插件以及功能较少                           |
 > *tips: 使用本Mod的人员建议使用 **[Intellij IDEA](https://www.jetbrains.com/zh-cn/idea/ "点击前往官网")** 以获取最佳开发体验。*
 ### 安装插件
 #### 对于使用IDEA的人员，建议安装下列插件：
@@ -38,7 +39,7 @@
 2. 找到**钢四模组工具**，在**Install Path**一栏输入游戏文件夹路径，在**Mod File**一栏输入模组定义文件（即 `descriptor.mod` 文件）路径。
 3. 找到**CWTools Configuration**，在**Cwtools > Cache: Hoi4**一栏输入游戏文件夹路径。
 4. 找到**VModer Configuration**，在**Game Root Path**一栏输入游戏文件夹路径。
-等待索引完成，即可开始制作Mod。
+   等待索引完成，即可开始制作Mod。
 ## Mod结构
 ### descriptor.mod文件
 descriptor.mod文件即模组定义文件，其中包含有Mod的各种信息。详细内容参考 `descriptor.md` 文件。
