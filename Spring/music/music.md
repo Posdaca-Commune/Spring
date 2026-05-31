@@ -6,9 +6,9 @@
 以下为一个音乐定义文件示例：
 ```paradox_script
 music = {
-    name = "xxx"
-    file = "xxx.ogg"
-    volume = *
+    name = "xxx" # 音乐名称
+    file = "xxx.ogg" # 音乐文件路径
+    volume = * # 音量
 }
 ```
 - `name = "xxx"`定义了音乐的名称，游戏内通过该名称调用音乐，同时使用其作为本地化键值。
@@ -19,10 +19,12 @@ music = {
 电台定义文件储存为`.txt`。<br>
 以下为一个电台定义文件示例：
 ```paradox_script
-music_station = "xxx"
+music_station = "xxx" # 电台名称
+# 电台包含的音乐
 music = {
-    song = "xxx"
+    song = "xxx" # 音乐名称
     chance = {
+        # 概率系数
         modifier = {
             factor = 1
         }

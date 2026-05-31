@@ -3,7 +3,6 @@ music_station = "exampleMusicStation"
 music = {
     song =  "exampleMusic0"
 	chance = {
-	    has_country_flag = QiuqiIsPig
 	    modifier = { factor = 91 }
 	}
 }
