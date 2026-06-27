@@ -6,22 +6,18 @@
 - 编写代码时随手写注释有助于帮助自己后期看懂自己的屎山代码。
 ## 制作Mod前的准备工作
 ### 下载文本编辑器
-制作mod所常用的文本编辑器有[VS code](https://code.visualstudio.com "点击前往官网")（以下简称VSC）与[Intellij IDEA](https://www.jetbrains.com/zh-cn/idea "点击前往官网")（以下简称IDEA）。
+由于历史遗留以及未来的开发环境原因，制作mod时建议采用[Intellij IDEA](https://www.jetbrains.com/zh-cn/idea "点击前往官网")（以下简称IDEA）而非[VS code](https://code.visualstudio.com "点击前往官网")（以下简称VSC）。
 
-| 软件 | [VS code](https://code.visualstudio.com "点击前往官网") | [Intellij IDEA](https://www.jetbrains.com/zh-cn/idea "点击前往官网") |
-|:----:|:-------------------------------------------------------:|:--------------------------------------------------------------------:|
-| 优点 |                  插件较多、用户数量多                   |             可通过嵌入提示快速了解信息，支持添加Mod索引              |
-| 缺点 |                 插件配置及上手难度较大                  |                           插件以及功能较少                           |
-> *tips: 使用本Mod的人员建议使用 **[Intellij IDEA](https://www.jetbrains.com/zh-cn/idea/ "点击前往官网")** 以获取最佳开发体验。*
+|    软件     | [VS Code](https://code.visualstudio.com "点击前往官网") | [Intellij IDEA](https://www.jetbrains.com/zh-cn/idea "点击前往官网") |
+|:-----------:|:-------------------------------------------------------:|:--------------------------------------------------------------------:|
+|  插件生态   |           插件较多，但主要插件CWTools基本停更           |                   插件较少，但功能完善，开发活跃中                   |
+|    体量     |   轻量级文本编辑器，但CWTools的解析会造成大量内存占用   |                       大型IDE，但插件优化完善                        |
+|  开发体验   |         接近纯文本编辑，效率取决于使用者熟练度          |               插件提供实用工具与即时预览，提高开发效率               |
+| Mod开发支持 |        CWTools插件长期无实质性更新，解析仍有问题        |           Paradox Language Support插件与解析规则积极维护中           |
+更多详细信息可以看[为什么选择IDEA](documentation/Markdown/谈谈我的看法.md)
 ### 安装插件
-#### 对于使用IDEA的人员，建议安装下列插件：
+#### 必备插件：
 - [Paradox Language Support](https://plugins.jetbrains.com/plugin/16825-paradox-language-support "点击前往插件页面")（P社语言解析工具）
-#### 对于使用VSC的人员，建议安装下列插件：
-- [Chinese (Simplified) (简体中文) Language Pack for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-zh-hans "点击前往插件页面")（VSC中文语言包）
-- [CWTools - Paradox Language Services](https://marketplace.visualstudio.com/items?itemName=tboby.cwtools-vscode "点击前往插件页面")（P社语言解析工具）
-- [VModer - HOI4 Language Server](https://marketplace.visualstudio.com/items?itemName=textGamex.VModer "点击前往插件页面")（CWTools扩展）
-- [HOI4 Mod Utilities](https://marketplace.visualstudio.com/items?itemName=Chaofan.hoi4modutilities "点击前往插件页面")（部分界面图形化预览工具）
-- [Paradox Highlight](https://marketplace.visualstudio.com/items?itemName=dragon-archer.paradox-highlight "点击前往插件页面")（P社语言高亮工具）
 ## 创建Mod
 ### 官方启动器流程：
 1. 打开启动器，单击左侧**Mod 库**。
@@ -30,23 +26,16 @@
 4. 完成后单击**创建 MOD**按钮，一个空白Mod便创建完毕。
 ## 打开Mod项目
 新创建的Mod文件夹保存于路径`%userprofile%\Documents\Paradox Interactive\Hearts of Iron IV\mod`中，Mod文件夹名称为此前输入的路径。  
-使用VSC或PYC打开文件夹，并在插件中设置游戏本体文件夹路径。
-### 对于IDEA：
-1. 按下快捷键**Ctrl+Alt+M**，在**游戏目录**栏目输入游戏本地文件夹路径，或点击**快速选择游戏目录**自动寻找。
-2. 在**模组依赖**栏目添加其他Mod以同时建立索引（可选，通常用于制作附属Mod时使用）。
-### 对于VSC：
-1. 点击左下角，打开**设置**，点击**扩展**。
-2. 找到**钢四模组工具**，在**Install Path**一栏输入游戏文件夹路径，在**Mod File**一栏输入模组定义文件（即 `descriptor.mod` 文件）路径。
-3. 找到**CWTools Configuration**，在**Cwtools > Cache: Hoi4**一栏输入游戏文件夹路径。
-4. 找到**VModer Configuration**，在**Game Root Path**一栏输入游戏文件夹路径。
-   等待索引完成，即可开始制作Mod。
+1. 使用IDEA打开文件夹，并在插件中设置游戏本体文件夹路径。
+2. 按下快捷键**Ctrl+Alt+M**，在**游戏目录**栏目输入游戏本地文件夹路径，或点击**快速选择游戏目录**自动寻找。
+3. 在**模组依赖**栏目添加其他Mod以同时建立索引（可选，通常用于制作附属Mod时使用）。
 ## Mod结构
 ### descriptor.mod文件
 descriptor.mod文件即模组定义文件，其中包含有Mod的各种信息。详细内容参考[descriptor.md](Spring/descriptor.md)文件。
 ### thumbnail.png/thumbnail.gif文件
 Mod封面文件，同时也是上传至Steam创意工坊的封面文件。
 ### 文件夹
-Mod文件夹结构与原版游戏基本相同，关于原版文件夹内容可参考[folder.html](HTMLdocumentation/folders_of_HOI4/folder.html)文件。
+Mod文件夹结构与原版游戏基本相同，关于原版文件夹内容可参考[folder.html](documentation/HTML/folders_of_HOI4/folder.html)文件。
 ## Mod读取
 Mod中文件读取遵从下列条件：
 - 当Mod文件与游戏本体文件不重复时，同时读取。
