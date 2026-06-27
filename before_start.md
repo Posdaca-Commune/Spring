@@ -42,11 +42,11 @@
    等待索引完成，即可开始制作Mod。
 ## Mod结构
 ### descriptor.mod文件
-descriptor.mod文件即模组定义文件，其中包含有Mod的各种信息。详细内容参考 `descriptor.md` 文件。
+descriptor.mod文件即模组定义文件，其中包含有Mod的各种信息。详细内容参考[descriptor.md](Spring/descriptor.md)文件。
 ### thumbnail.png/thumbnail.gif文件
 Mod封面文件，同时也是上传至Steam创意工坊的封面文件。
 ### 文件夹
-Mod文件夹结构与原版游戏基本相同，关于原版文件夹内容可参考 `folder.html`文件。
+Mod文件夹结构与原版游戏基本相同，关于原版文件夹内容可参考[folder.html](HTMLdocumentation/folders_of_HOI4/folder.html)文件。
 ## Mod读取
 Mod中文件读取遵从下列条件：
 - 当Mod文件与游戏本体文件不重复时，同时读取。
