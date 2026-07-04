@@ -1,8 +1,0 @@
-music_station = "exampleMusicStation"
-
-music = {
-    song =  "exampleMusic0"
-	chance = {
-	    modifier = { factor = 91 }
-	}
-}

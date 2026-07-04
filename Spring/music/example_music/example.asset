@@ -1,7 +1,0 @@
-
-music = {
-	name = "exampleMusic0"
-	file = "musicFiles/example.ogg"
-	volume = 0.91
-}
-
