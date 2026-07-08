@@ -11,10 +11,10 @@ load_0 = {
     # 可选条目
     dlc_allowed = "No Compromise, No Surrender" # 支持该背景的DLC
     locale = "simp_chinese" # 支持该背景的语言环境
-    gfx = GFX_frontend_bg_basic # 覆盖的GFX标签
+    gfx = GFX_frontend_bg_basic # 使用对应GFX的数据
 }
 ```
 - `<NAME>`：背景图像的名称。
 - `dlc_allowed = *`：支持该背景的DLC，游戏当前的背景由最新的DLC指定。
 - `locale = *`：支持该背景的语言环境，当指定`locale`时会覆盖`dlc_allowed = *`指定的默认背景。
-- `gfx = *`：覆盖的对应的GFX标签。
+- `gfx = *`：使用对应GFX的数据、渲染处理。
