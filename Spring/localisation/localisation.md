@@ -35,29 +35,29 @@ l_simp_chinese:
 其中，本地化输出时`红温`这部分本地化内容将被着色为<font color=#ff3232>红色</font>。  
 以下是一个表格，列出了游戏本体的的着色符号及其对应RGB值：
 
-| 符号 | 颜色                                          |
-|------|-----------------------------------------------|
-| §W   | <font color=#ffffff>{ 255, 255, 255 }</font>  |
-| §R   | <font color=#ff3232>{ 255, 50, 50 }</font>    |
-| §G   | <font color=#009f03>{ 0, 159, 3 }</font>      |
-| §B   | <font color=#0000ff>{ 0, 0, 255 }</font>      |
-| §Y   | <font color=#ffbd00>{ 255, 189, 0 }</font>    |
-| §C   | <font color=#23ceff>{ 35, 206, 255 }</font>   |
-| §L   | <font color=#c3b091>{ 195, 176, 145 }</font>  |
-| §O   | <font color=#ff7019>{ 255, 122, 25 }</font>   |
-| §b   | <font color=#000000>{ 0, 0, 0 }</font>        |
-| §g   | <font color=#b0b0b0>{ 176, 176, 176 }</font>  |
-| §0   | <font color=#cb00cb>{ 203, 203, 203 }</font>  |
-| §1   | <font color=#8078d3>{ 128, 120, 211 }</font>  |
-| §2   | <font color=#5170f3>{ 81, 122, 243 }</font>   |
-| §3   | <font color=#518fdc>{ 81, 143, 220 }</font>   |
-| §4   | <font color=#5abee7>{ 90, 190, 231 }</font>   |
-| §5   | <font color=#3fb5c2>{ 63, 181, 194 }</font>   |
-| §6   | <font color=#77ccba>{ 119, 204, 186 }</font>  |
-| §7   | <font color=#99d199>{ 153, 209, 153 }</font>  |
-| §8   | <font color=#cca333>{ 204, 163, 51 }</font>   |
-| §9   | <font color=#fca97d>{ 252, 169, 125  }</font> |
-| §t   | <font color=#ff4c4d>{ 255, 76, 77 }</font>    |
+|  符号  |                      颜色                       |
+|:------:|:-----------------------------------------------:|
+|   §W   |  <font color=#ffffff>{ 255, 255, 255 }</font>   |
+|   §R   |   <font color=#ff3232>{ 255, 50, 50 }</font>    |
+|   §G   |    <font color=#009f03>{ 0, 159, 3 }</font>     |
+|   §B   |    <font color=#0000ff>{ 0, 0, 255 }</font>     |
+|   §Y   |   <font color=#ffbd00>{ 255, 189, 0 }</font>    |
+|   §C   |   <font color=#23ceff>{ 35, 206, 255 }</font>   |
+|   §L   |  <font color=#c3b091>{ 195, 176, 145 }</font>   |
+|   §O   |   <font color=#ff7019>{ 255, 122, 25 }</font>   |
+|   §b   |     <font color=#000000>{ 0, 0, 0 }</font>      |
+|   §g   |  <font color=#b0b0b0>{ 176, 176, 176 }</font>   |
+|   §0   |  <font color=#cb00cb>{ 203, 203, 203 }</font>   |
+|   §1   |  <font color=#8078d3>{ 128, 120, 211 }</font>   |
+|   §2   |   <font color=#5170f3>{ 81, 122, 243 }</font>   |
+|   §3   |   <font color=#518fdc>{ 81, 143, 220 }</font>   |
+|   §4   |   <font color=#5abee7>{ 90, 190, 231 }</font>   |
+|   §5   |   <font color=#3fb5c2>{ 63, 181, 194 }</font>   |
+|   §6   |  <font color=#77ccba>{ 119, 204, 186 }</font>   |
+|   §7   |  <font color=#99d199>{ 153, 209, 153 }</font>   |
+|   §8   |   <font color=#cca333>{ 204, 163, 51 }</font>   |
+|   §9   |  <font color=#fca97d>{ 252, 169, 125  }</font>  |
+|   §t   |   <font color=#ff4c4d>{ 255, 76, 77 }</font>    |
 
 关于本地化着色的更多信息，可参考[Wiki](https://hoi4.paradoxwikis.com/Localisation#Colouring_characters "点击跳转至页面")。
 ### 本地化内容嵌入图片
