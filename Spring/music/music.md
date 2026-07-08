@@ -163,4 +163,4 @@ guiTypes = {
 }
 ```
 其中，`name = "xxx_faceplate"`中的`xxx`需要与电台定义文件中`music_station = "xxx"`的`xxx`保持一致。
-> *tips: 关于GUI的更多内容可以查看`gui.md`文件。*
+> *tips: 关于GUI的更多内容可以查看[GUI教程](../interface/gui.md)文件。*
